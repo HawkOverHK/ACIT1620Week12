@@ -15,3 +15,18 @@ document.body.classList.add("pinkBG")
 
 }
 clickButton.addEventListener("click",changeBGPink)
+
+
+function ChangeText()
+{
+    if (clickButton.textContent ==="CLICK ME!") {clickButton.textContent = "CLICKED"}
+    else clickButton.textContent = "CLICK ME!"
+}
+clickButton.addEventListener("click", ChangeText)
+
+
+function updateImage()
+{
+
+}
+clickButton.addEventListener("click", updateImage);
