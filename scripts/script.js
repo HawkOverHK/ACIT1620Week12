@@ -24,9 +24,13 @@ function ChangeText()
 }
 clickButton.addEventListener("click", ChangeText)
 
-
+const img = document.querySelector("#cart")
+// console.log(img)
 function updateImage()
 {
-
+img.src = "img/263142.png"
+img.alt = "Shopping Cart"
+img.width = "100"
+img.height = "100"
 }
 clickButton.addEventListener("click", updateImage);
