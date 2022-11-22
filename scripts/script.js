@@ -1,3 +1,7 @@
 const clickButton = document.querySelector('#click');
 // console.log(clickButton)
-clickButton.addEventListener
+function clickHandler()
+{
+    alert("BONK")
+}
+clickButton.addEventListener("click", clickHandler)
