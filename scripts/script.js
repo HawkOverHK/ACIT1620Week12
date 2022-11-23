@@ -34,3 +34,14 @@ img.width = "100"
 img.height = "100"
 }
 clickButton.addEventListener("click", updateImage);
+
+const buttonContainer = document.querySelector('.button-container')
+buttonContainer.addEventListener("mouseover", changegreen)
+
+function changegreen(e)
+{
+    // console.log(e.target)
+    if (e.target.tagName === "BUTTON")
+
+    e.target.style.backgroundColor = "green"
+}
