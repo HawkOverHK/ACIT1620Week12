@@ -45,3 +45,9 @@ function changegreen(e)
 
     e.target.style.backgroundColor = "green"
 }
+buttonContainer.addEventListener("click", changeButtonTextColor)
+function changeButtonTextColor(e)
+{
+    e.target.style.color = e.target.textContent;
+}
+
